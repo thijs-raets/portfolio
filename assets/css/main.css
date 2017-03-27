@@ -1,0 +1,171 @@
+header{
+	border-bottom: 1px solid #e3e3e3;
+	height:100px;
+}
+
+#nav{
+	padding:34px 0;
+}
+
+ul{
+	list-style: none;
+	line-height: 2.0em;
+}
+
+#nav li{
+	float: left;
+	padding: 0px 22px;
+}
+
+#nav a{
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 0.14em;
+	padding: 2px;
+	text-transform: uppercase;
+}
+
+#nav-wrapper{
+	text-align:center;
+}
+
+
+
+#homePageBanner{
+	max-height:900px;
+	text-align:center;
+	margin-bottom:48px;
+}
+#homePageBanner img{
+	max-height:900px;
+}
+
+
+#about-intro{
+	padding-bottom: 48px;
+}
+
+#about-intro p{
+	font-family: "freight-display-pro",sans-serif;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 300;
+	padding: 0 15%;
+	margin-bottom: 0px;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+
+#skills{
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+}
+
+#skills h2{
+	font-family: 'brandon-grotesque';
+	position:absolute;
+}
+
+#skills ul{
+	border-left: 1px solid #e3e3e3;
+	line-height: 1;
+	padding-left: 24px;
+	min-height:150px;
+
+}
+
+#skills ul li{
+	margin-bottom: 15px;
+}
+
+.skill{
+	width:140px;
+	margin-left:60px;
+	float:left;
+}
+
+
+#projects :after {
+/*content: "";*/
+/*display: table;*/
+clear: both;
+}
+#projects{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:100px;
+}
+.project{
+	text-align:center;
+}
+/*#projects img{*/
+	/*width:100%;*/
+/*}*/
+#contact-content{
+	text-align:center;
+}
+#contact{
+	margin-top:100px;
+}
+
+
+
+
+body{
+	font: 16px/28px 'brandon-grotesque', sans-serif;
+}
+#container{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:54px;
+	padding-bottom: 100px;
+
+}
+
+#container :after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#footer{
+	min-heigth:100px;
+	border-top: 1px solid #e3e3e3;
+	height:100px;
+}
+a{
+	color: #212121;
+	text-decoration: none;
+	outline: 0;
+}
+
+h2, h1{
+	font-family: 'brandon-grotesque';
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	line-height: 1;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+
+
+.rotate{
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	padding: 12px 0;
+	margin:0px;
+}
+
